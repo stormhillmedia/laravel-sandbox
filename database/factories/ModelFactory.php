@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Model Factories
@@ -13,7 +12,6 @@
 /*
 $factory->define(App\Article::class, function (Faker\Generator $faker) {
     static $password;
-
     return [   
         'title' => $faker->sentence,
         'body' => $faker->sentence,
@@ -22,10 +20,8 @@ $factory->define(App\Article::class, function (Faker\Generator $faker) {
     ];
 });
 */
-
 $factory->define(App\User::class, function (Faker\Generator $faker) {
     static $password;
-
     return [
         'name' => $faker->name,
         'email' => $faker->unique()->safeEmail,
@@ -33,22 +29,16 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
         'remember_token' => str_random(10),
     ];
 });
-
-
 $factory->define(App\opps::class, function (Faker\Generator $faker) {
     static $password;
-
     return [
         'ws_name' => $faker->sentence,
         'ws_opp_num' => $faker->randomNumber($nbDigits = 4),
         'is_qualified' => $faker->boolean,
     ];
 });
-
-
 $factory->define(App\opp_cust_datas::class, function (Faker\Generator $faker) {
     static $password;
-
     return [
         'customer_id' => $faker->randomNumber($nbDigits = 7),
         'custom_name' => $faker->name,
@@ -67,6 +57,3 @@ $factory->define(App\opp_cust_datas::class, function (Faker\Generator $faker) {
         'is_inactive' => $faker->boolean,
     ];
 });
-
-
-          

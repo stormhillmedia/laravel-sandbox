@@ -13,4 +13,4 @@ class OppsTableSeeder extends Seeder
 
 
     }
-}
+} 

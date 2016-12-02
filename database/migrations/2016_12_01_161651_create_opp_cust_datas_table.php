@@ -17,7 +17,7 @@ class CreateOppCustDatasTable extends Migration
             $table->increments('id');
             $table->integer('opps_id')->unsigned()->nullable();
             $table->integer('customer_id')->unsigned()->nullable();
-            $table->string('custom_name');
+            $table->string('custom_name')->nullable();
             $table->integer('opp_category_id')->unsigned()->nullable();
             $table->date('date_in_pipeline')->nullable();
             $table->string('contract_role')->nullable();
