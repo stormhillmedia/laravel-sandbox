@@ -1,0 +1,338 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"to",
+				"toTruncate"
+			],
+			[
+				"prot",
+				"protected"
+			],
+			[
+				"pub",
+				"published_at"
+			],
+			[
+				"print",
+				"print_r"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "database/seeds/DatabaseSeeder.php",
+			"settings":
+			{
+				"buffer_size": 513,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/seeds/ArticleTableSeeder.php",
+			"settings":
+			{
+				"buffer_size": 157,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "database/factories/ModelFactory.php",
+			"settings":
+			{
+				"buffer_size": 2175,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Owner/projects/laravel-basics",
+		"/C/Users/Owner/projects/laravel-basics/app",
+		"/C/Users/Owner/projects/laravel-basics/database",
+		"/C/Users/Owner/projects/laravel-basics/database/factories",
+		"/C/Users/Owner/projects/laravel-basics/database/migrations",
+		"/C/Users/Owner/projects/laravel-basics/database/seeds",
+		"/C/Users/Owner/projects/laravel-basics/resources",
+		"/C/Users/Owner/projects/laravel-basics/resources/assets/sass"
+	],
+	"file_history":
+	[
+		"/C/Users/Owner/projects/laravel-basics/database/seeds/UsersTableSeeder.php",
+		"/C/Users/Owner/projects/laravel-basics/app/opp_cust_datas.php",
+		"/C/Users/Owner/projects/laravel-basics/database/migrations/2016_12_01_161651_create_opp_cust_datas_table.php",
+		"/C/Users/Owner/projects/laravel-basics/app/Http/Controllers/ArticlesController.php",
+		"/C/Users/Owner/projects/gittest/index.txt",
+		"/C/Users/Owner/projects/gittest/test.txt",
+		"/C/Users/Owner/projects/gittest/.git/COMMIT_EDITMSG",
+		"/C/Users/Owner/projects/laravel-basics/resources/views/welcome.blade.php",
+		"/C/Users/Owner/projects/laravel-basics/gulpfile.js",
+		"/C/Users/Owner/projects/laravel-basics/.env",
+		"/C/Users/Owner/projects/laravel-basics/app/Article.php",
+		"/C/Users/Owner/projects/laravel-basics/app/Http/Requests/CreateArticle.php",
+		"/C/Users/Owner/projects/laravel-basics/resources/views/articles/index.blade.php",
+		"/C/Users/Owner/projects/laravel-basics/resources/views/articles/create.blade.php",
+		"/C/Users/Owner/projects/laravel-basics/routes/web.php",
+		"/C/Users/Owner/projects/laravel-basics/config/app.php",
+		"/C/Users/Owner/projects/laravel-basics/resources/views/app.blade.php",
+		"/C/Users/Owner/projects/laravel-basics/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/C/Users/Owner/projects/laravel-basics/database/migrations/2016_11_24_035943_create_articles_table.php",
+		"/C/xampp/htdocs/laraveltest/config/app.php",
+		"/C/Users/Owner/projects/laravel-basics/resources/views/articles/show.blade.php",
+		"/C/Users/Owner/projects/laravel-basics/config/database.php",
+		"/C/Users/Owner/projects/laravel-basics/vendor/laravel/framework/src/Illuminate/Routing/RouteCollection.php",
+		"/C/Users/Owner/projects/laravel-basics/app/Http/Controllers/WelcomeController.php",
+		"/C/Users/Owner/projects/laravel-basics/resources/views/pages/about.blade.php",
+		"/C/Users/Owner/projects/laravel-basics/app/Http/Controllers/PagesController.php",
+		"/C/Users/Owner/.homestead/Homestead.yaml",
+		"/C/Users/Owner/projects/laravel-basics/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/C/Users/Owner/projects/laravel-basics/vendor/laravel/framework/src/Illuminate/Contracts/Routing/ResponseFactory.php",
+		"/C/Users/Owner/Homestead/homestead",
+		"/C/Windows/System32/drivers/etc/hosts"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"C:\\Users\\Owner\\projects\\laravel-basics"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"carbon",
+			"extends Controller {",
+			"view"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "database/seeds/DatabaseSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 513,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								511,
+								7
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 57.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "database/seeds/ArticleTableSeeder.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 157,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								113,
+								113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "database/factories/ModelFactory.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2175,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								490,
+								490
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 35.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "laravel-basics.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 328.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
