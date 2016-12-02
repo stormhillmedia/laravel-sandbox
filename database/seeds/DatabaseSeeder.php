@@ -6,8 +6,8 @@ class DatabaseSeeder extends Seeder
 {
 	protected $toTruncate = [
 		'users',
-		//'opp_cust_datas',
-		'articles'
+		'opps',
+		'opp_cust_datas'
 	];
     /**
      * Run the database seeds.
@@ -21,7 +21,7 @@ class DatabaseSeeder extends Seeder
     	}
     
         $this->call(UsersTableSeeder::class);
-        $this->call(ArticleTableSeeder::class);
-        //$this->call(OppCustDatasTableSeeder::class);
+        $this->call(OppsTableSeeder::class);
+       // $this->call(OppCustDatasTableSeeder::class);
     }
 } 

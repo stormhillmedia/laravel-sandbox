@@ -6,6 +6,6 @@ class ArticleTableSeeder extends Seeder
 {
     public function run()
     {
-        factory('App\Article',10);
+        factory('App\Article',10)->create();
     }
 }

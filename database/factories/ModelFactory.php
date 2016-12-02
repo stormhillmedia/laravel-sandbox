@@ -10,6 +10,7 @@
 | database. Just tell the factory how a default model should look.
 |
 */
+/*
 $factory->define(App\Article::class, function (Faker\Generator $faker) {
     static $password;
 
@@ -20,6 +21,7 @@ $factory->define(App\Article::class, function (Faker\Generator $faker) {
         'published_at' => $faker->date($format = 'Y-m-d', $max = 'now'),
     ];
 });
+*/
 
 $factory->define(App\User::class, function (Faker\Generator $faker) {
     static $password;
@@ -32,11 +34,22 @@ $factory->define(App\User::class, function (Faker\Generator $faker) {
     ];
 });
 
+
+$factory->define(App\opps::class, function (Faker\Generator $faker) {
+    static $password;
+
+    return [
+        'ws_name' => $faker->sentence,
+        'ws_opp_num' => $faker->randomNumber($nbDigits = 4),
+        'is_qualified' => $faker->boolean,
+    ];
+});
+
+
 $factory->define(App\opp_cust_datas::class, function (Faker\Generator $faker) {
     static $password;
 
     return [
-        'opps_id' => $faker->sentence,
         'customer_id' => $faker->randomNumber($nbDigits = 7),
         'custom_name' => $faker->name,
         'opp_category_id' => $faker->randomNumber($nbDigits = 4),
@@ -45,9 +58,9 @@ $factory->define(App\opp_cust_datas::class, function (Faker\Generator $faker) {
         'anticipated_total_contract_value' => $faker->randomFloat($nbMaxDecimals = 2, $min = 10000, $max = 999999),
         'anticipated_workshare' => $faker->randomFloat($nbMaxDecimals = 2, $min = 1000, $max = 99999),
         'anticipated_contract_vehicle' => $faker->sentence,
-        'p_bid' => $faker->randomFloat($nbMaxDecimals = 2, $min = 1000, $max = 99999),
-        'p_win' => $faker->randomFloat($nbMaxDecimals = 2, $min = 1000, $max = 9999),
-        'data_scope' => $faker->$faker->word,
+        'p_bid' => $faker->randomFloat($nbMaxDecimals = 2, $min = 10, $max = 99),
+        'p_win' => $faker->randomFloat($nbMaxDecimals = 2, $min = 10, $max = 99),
+        'data_scope' => $faker->word,
         'author_id' => $faker->randomNumber($nbDigits = 2),
         'priority' => $faker->sentence,
         'userid_of_lock' => $faker->randomNumber($nbDigits = 2),

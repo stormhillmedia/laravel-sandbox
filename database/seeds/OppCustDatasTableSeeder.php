@@ -6,6 +6,8 @@ class OppCustDatasTableSeeder extends Seeder
 {
     public function run()
     {
-        factory('App\opp_cust_datas',10);
+    	$oppid = 123;
+        factory('App\opp_cust_datas',10)->create(['opps_id' => $oppid]);
+       // create(['opps_id' => $user->id]);
     }
 }
