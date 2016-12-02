@@ -6,7 +6,7 @@ class DatabaseSeeder extends Seeder
 {
 	protected $toTruncate = [
 		'users',
-		'opp_cust_datas',
+		//'opp_cust_datas',
 		'articles'
 	];
     /**
